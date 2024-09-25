@@ -1,14 +1,29 @@
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+dist
 node_modules
-.storybook/generatedIncludes.js
-storybook-static
-.vscode/
-.env.local
-yarn-error.log
+dist-ssr
+*.local
 
-NOTES.md
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
 
-scripts/migratedStories.log
+*storybook.log
+
+# macOS files
+.DS_Store
